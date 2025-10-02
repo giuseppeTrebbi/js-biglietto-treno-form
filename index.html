@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biglietto del treno</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body class="bg-primary">
+    <main class="container d-flex flex-column text-white mt-5">
+      <label for="kilometri">kilometri da percorrere</label>
+      <input id="kilometri" type="number" />
+
+      <label for="anagrafica">Età passeggero</label>
+      <input id="anagrafica" type="number" />
+      <button class="bg-secondary mt-3" id="bottone">Inserisci dati</button>
+
+      <label for="card-prezzo" class="mt-5">Prezzo biglietto</label>
+      <div id="card-prezzo" class="card w-50">
+        <div class="card-body"></div>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
